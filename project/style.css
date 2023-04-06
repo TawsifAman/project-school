@@ -1,0 +1,147 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #f0b52b;
+  overflow-x: hidden;
+}
+.logo-part img{
+  margin: 23px;
+}
+nav{
+  background-color: #3752a5;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+}
+nav ul li a:hover{
+  color: red;
+}
+.hero-part{
+  background-color: #f0b52b;
+}
+.hero-part img{
+  position: relative;
+  left: 50%;
+}
+.hero-part .back{
+  position: relative;
+  top: 50%;
+  right: 45%;
+}
+.hero-part .img-back img{
+  position: relative;
+  bottom: 25rem;
+  left: 30%;
+}
+.hero-part .img-to img{
+  position: relative;
+  bottom: 25rem;
+  left: 38%;
+}
+.hero-part .img-school img{
+  position: relative;
+  bottom: 25rem;
+  left: 25%;
+}
+.hero-part h2{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+  position: relative;
+  bottom: 25rem;
+  right: 15rem;
+}
+/* section{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/place_your_design_here_do.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.times{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  height: 80%;
+  background: rgba(55, 82, 165, .9);
+  border: 1px;
+  border-radius: 7rem;
+} */
+.times img{
+  width: 100%;
+  height: 100%;
+}
+.img-part .lets-go{
+  position: relative;
+  bottom: 35rem;
+  left: 25rem;
+}
+.img-part h1{
+  position: relative;
+  bottom: 35rem;
+  left: 30rem;
+}
+.img-part button{
+  position: relative;
+  bottom: 35rem;
+  left: 40rem; 
+}
+footer a{
+  text-decoration: none;
+  position: relative;
+  left: 60rem;
+  bottom: 5rem;
+  font-size: 20px;
+}
+footer h3{
+  position: relative;
+  top: 5rem;
+}
+footer h4{
+  position: relative;
+  top: 5rem;
+}
+footer img{
+  position: relative;
+  left: 65rem;
+}
+.who-we-are{
+  background-color: #f0b52b;
+}
+.who-we-are h1{
+  font-size: 60px;
+  position: relative;
+  left: 39rem;
+  bottom: 25rem;
+}
+.who-we-are h2{
+  font-size: 35px;
+  position: relative;
+  left: 39rem;
+  bottom: 23rem;
+}
+.who-we-are button{
+  position: relative;
+  bottom: 22rem;
+  left: 39rem;
+  font-size: 20px;
+}
+.books img{
+  width: 100%;
+  height: 100%;
+}
